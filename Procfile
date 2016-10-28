@@ -1,1 +1,1 @@
-zipkin: java -Dserver.port=$PORT -jar  target/demo-zipkin-0.0.1-SNAPSHOT.jar
+zipkin: java  -jar  target/demo-zipkin-0.0.1-SNAPSHOT.jar

@@ -1,18 +1,16 @@
 server:
   port: ${PORT:9411}
+zipkin:
+  storage:
+    type: mysql
 spring:
-#  rabbitmq:
-#    host: ${RABBIT_HOST:localhost}
 #  datasource:
 #    schema: classpath:/mysql.sql
 #    url: jdbc:mysql://${MYSQL_HOST:localhost}/zipkin
 #    username: root
 #    password:
-# Switch this on to create the schema on startup:
+#    # Switch this on to create the schema on startup:
 #    initialize: true
 #    continueOnError: true
   sleuth:
-    enabled: true
-zipkin:
-  storage:
-    type: mysql
+    enabled: false
