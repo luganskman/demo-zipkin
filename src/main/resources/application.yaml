@@ -12,7 +12,7 @@ spring:
 #    initialize: true
 #    continueOnError: true
   sleuth:
-    enabled: false
+    enabled: true
 zipkin:
   storage:
     type: mysql
